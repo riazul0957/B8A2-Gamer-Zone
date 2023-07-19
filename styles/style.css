@@ -1,9 +1,9 @@
-
 /* ROOT */
-body{
+body {
     font-family: 'Roboto', sans-serif;
-font-family: 'Work Sans', sans-serif;
+    font-family: 'Work Sans', sans-serif;
 }
+
 /* header section */
 header {
     background: #FFF;
@@ -58,13 +58,14 @@ nav {
 }
 
 .nav-images {
-    padding-left: 5px;
+    /* padding-left: 5px;
     padding-right: 10px;
     padding-top: 9px;
-    padding-bottom: 11px;
+    padding-bottom: 11px; */
+    /* margin-top: 15px; */
 
 
-    background: rgba(11, 2, 35, 0.10);
+    /* background: rgba(11, 2, 35, 0.10); */
 }
 
 .main-menu ul {
@@ -89,16 +90,17 @@ nav li {
     font-weight: 500;
 }
 
-.nav-text-list {
+/* .nav-text-list {
     margin-top: 15px;
-}
+} */
 
 .nav-list-button {
-    padding-left: 15px;
+    /* padding-left: 15px;
     padding-right: 0px;
     padding-top: 16px;
-    padding-bottom: 21px;
-    background: rgba(11, 2, 35, 0.10);
+    padding-bottom: 21px; */
+    /* background: rgba(11, 2, 35, 0.10); */
+    border: 2px solid black;
 }
 
 nav li a {
@@ -131,7 +133,7 @@ nav li a {
     background-clip: text;
     -webkit-background-clip: text;
     -webkit-text-fill-color: transparent;
-    
+
 
 
 }
@@ -147,7 +149,7 @@ nav li a {
 
 .goat-buttons {
     display: inline-flex;
-    padding: 21px ;
+    padding: 21px;
     align-items: flex-start;
     gap: 10px;
     color: #FFFFFF;
@@ -175,18 +177,72 @@ nav li a {
     border-radius: 48px;
     background: #4EC5F7;
 }
-.banner-section{
+
+.banner-section {
     display: flex;
     justify-content: space-between;
     padding-left: 100px;
     padding-right: 100px;
 }
-.banner-child2 img{
+
+.banner-child2 img {
     width: 711px;
     height: 650px;
-    flex-shrink: 0;
 }
-.banner-child{
+
+.banner-child {
     padding-top: 100px;
-    
+
 }
+
+.image-Container li {
+    list-style: none;
+}
+
+.image-Container ul {
+    display: flex;
+    justify-content: space-evenly;
+
+
+}
+
+.img-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    width: 342px;
+
+
+
+
+}
+
+.onlien-games-title {
+    color: #0B0223;
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+
+}
+
+.Funny-Videos {
+    background: linear-gradient(180deg, #F948B2 0%, #8758F1 100%);
+    background-clip: text;
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    font-size: 48px;
+    font-weight: 700;
+}
+
+.funny-description {
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+    margin-top: 0px;
+    margin-bottom: 60px;
+}
+
+
+
+
