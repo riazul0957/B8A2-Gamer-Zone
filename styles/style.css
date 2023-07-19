@@ -511,6 +511,26 @@ ul .follow-us {
     
 
 }
+.banner-section {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.banner-child2 img {
+    width: 300px;
+    height: 250px;
+}
+.Play-like-the {
+    margin-top: 400px;
+}
+
+.we-are-gamer-image img{
+display: none;
+}
+
 }
 
 /* tablet or medioum devices */
