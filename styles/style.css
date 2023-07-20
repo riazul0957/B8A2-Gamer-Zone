@@ -586,7 +586,7 @@ ul .follow-us {
         margin-left: 0;
         margin-right: 0;
         display:flex;
-        /* /* justify-content: space-between; */
+       
         flex-direction: column;
     }
     .we-are-gamer img{
@@ -711,44 +711,231 @@ ul .follow-us {
    width: 350px;
    
 }
-    /* 
-.banner-child2 img {
-    width: 300px;
-    height: 250px;
-}
-.Play-like-the {
-    margin-top: 400px;
 }
 
-.we-are-gamer-image img{
-display: none;
+/* tablet or medioum devices */
+@media screen and (min-width:576px) and (max-width:960px) {
+
+.gamer-and-frame {
+    margin-left: 50px;
 }
-.we-are-gamer-title-description{
-    display: none;
+.navigation-bar {
+    flex-direction: column;
+}
+
+.gamer-and-frame {
+    justify-content: center;
+}
+
+.main-menu ul,
+ul .follow-us {
+    gap: 25px;
+    
+    align-items: center;
+    margin-top: 5px;
+    padding-left: 0;
+
+}
+
+.banner-section {
+    display: flex;
+    padding-left: 100px;
+    padding-right: 100px;
+    flex-direction: column;
+    align-items: center;
+}
+
+.follow-us {
+    align-items: center;
+    justify-content: center;
+    padding-left: 0;
+    padding-top: 0;
+    padding-bottom: 0;
+    padding-right: 0;
+    flex-shrink: 0;
+    border-radius: 8px solid black;
+    background: none;
+
+
+}
+
+.Play-like-the {
+    margin-top: 200px;
+
+}
+
+.G-O-A-T {
+    font-size: 65px;
+
+}
+
+.goat-list-section1 li {
+
+    align-items: stretch;
+
+    flex-direction: column;
+}
+
+.banner-section {
+    background-image: none;
+}
+.banner-child {
+    padding-top: 0px;
+}
+
+.sign-in {
+
+    padding: 10px;
+
+}
+
+.Go-Rogue {
+
+    padding: 10px;
+
+}
+
+.banner-child2 img {
+  max-width: 100%;
+    
+}
+.banner-child2 img{
+    
+}
+.we-are-gamer {
+    
+    margin-left: 0;
+    margin-right: 0;
+    display:flex;
+   
+    flex-direction: column;
+}
+.we-are-gamer img{
+    width: 750px;
+}
+.gaming-headline {
+    
+    font-size: 48px;
+    font-weight: 700;
+    text-align: center;
+    
+}
+.gaming-description {
+    width: 730px;
+    color: #534C64;
+    text-align: center;
+    font-size: 18px;
+    font-weight: 400;
+}
+.know-more-btn {
+    display: inline-flex;
+    
+    margin-left: 0px;
+    
+}
+.gamer-caption {
+    margin-top: 10px;
+    text-align: left;
+    font-size: 20px;
+    
 }
 .image-Container ul {
-    display: flex;
-    justify-content: space-evenly;
-    flex-direction: column;
+    display: grid;
+    grid-template-columns: repeat(2 ,1fr);
+    margin-left: 30px;
+    
+}
+.image-Container ul  img{
+    width: 250px;
+    
+}
+.Online-games{
+    margin-left: 0;
+}
+.img-description {
+    color: #534C64;
+    font-size: 18px;
+    font-weight: 500;
+    width: 280px;
 }
 .play-section {
     display: flex;
     justify-content: space-around;
-    margin-top: 100px;
-    height: 750px;
-    flex-direction: column;
-}
-.instant-section1{
-    margin-top: 250px;
-}
-.main-catagory{
-    grid-template-columns: repeat(1 , 1fr);
-    margin-top: 200px;
-}
-.catagory-section ul{
-    display: none;
-} */
+   height: 500px;
+    
+    
 }
 
-/* tablet or medioum devices */
-@media screen and (min-width:576px) and (max-width:960px) {}
+.play-title {
+   
+    
+    width: 353px;
+    text-align: left;
+    margin-top: 0px;
+}
+.play-description {
+    width: 353px;
+    color: #534C64;
+    
+    font-size: 18px;
+    font-weight: 400;
+    
+}
+.picture-1 img{
+    margin-left: 30px;
+    width: 300px;
+}
+.picture-2 img{
+    width: 150px;
+    margin-left: 140px;
+    margin-top: 200px;
+}
+.catagory-section ul {
+grid-template-columns: repeat(3, 1fr);
+width: 700px;
+padding-left: 0;
+margin-top: 0;
+
+}
+.footer-section {
+width: 100%;
+margin-top: 100px;
+height: auto;
+}
+.footer-list ul {
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+gap: 30px;
+font-size: 13px;
+margin-left: 190px;
+width: 300px;
+
+}
+.footer-section-heading {
+
+padding-top: 0;
+}
+.footer-social-links ul {
+display: grid;
+grid-template-columns: repeat(3 , 1fr);
+margin-left: 90px;
+gap: 0;
+}
+.terms-cookie-privacy ul {
+display: flex;
+justify-content: center;
+gap: 50px;
+padding-left: 0;
+
+}
+
+
+.footer-description {
+padding-top: 50px;
+padding-bottom: 50px;
+font-size: 13px;
+
+
+}
+
+}
